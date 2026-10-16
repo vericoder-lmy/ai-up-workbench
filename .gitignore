@@ -1,0 +1,18 @@
+# 密钥（只放本机）
+source/config.local.json
+
+# 运行产物
+__pycache__/
+*.pyc
+*.part.mp4
+source/00_素材库/**
+!source/00_素材库/*/
+!source/00_素材库/*/.keep
+source/04_工程/*
+source/05_成片/*
+source/06_日报/*
+source/07_音频纠正/*
+!source/*/.keep
+source/engine/assets/covers/*
+!source/engine/assets/covers/.keep
+source/engine/styles/previews/

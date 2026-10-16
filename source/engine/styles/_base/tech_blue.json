@@ -1,0 +1,326 @@
+{
+  "name": "tech_blue",
+  "description": "深色科技风：冷蓝渐变标题、霓虹进度条、深蓝知识卡片、青色关键词弹字，适合科普/数码/财经口播",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "fonts": {
+    "title": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc"
+    ],
+    "hand": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc"
+    ],
+    "sub": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc",
+      "simhei.ttf"
+    ],
+    "label": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc"
+    ],
+    "pop": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc"
+    ]
+  },
+  "brand": {
+    "title": "",
+    "slogan": "医学科普 · 健康知识",
+    "logo_text": "",
+    "seal_text": "",
+    "namecard_lines": [],
+    "disclaimer": [
+      "医学科普  仅供参考",
+      "如有不适请及时线下就医"
+    ]
+  },
+  "header": {
+    "haze_height": 380,
+    "haze_alpha_top": 0.92,
+    "haze_alpha_bottom": 0.0,
+    "haze_blur": 18,
+    "title_size": 96,
+    "title_y": 26,
+    "title_cx": 540,
+    "title_grad": [
+      "#e0fbff",
+      "#67e8f9",
+      "#0891b2"
+    ],
+    "title_stroke": 3,
+    "title_stroke_color": "#031421",
+    "slogan_size": 46,
+    "slogan_y": 146,
+    "slogan_right": 1068,
+    "slogan_grad": [
+      "#cbd5e1",
+      "#94a3b8"
+    ],
+    "slogan_stroke": 2,
+    "slogan_stroke_color": "#020617",
+    "logo_size": 70,
+    "logo_x": 22,
+    "logo_y": 22,
+    "logo_color": "#e2e8f0",
+    "seal_color": "#0891b2",
+    "haze_tint": "#0b1424",
+    "haze_mix": 0.9,
+    "logo_show": false,
+    "haze_plateau": 1.9
+  },
+  "progress": {
+    "y": 262,
+    "thickness": 10,
+    "margin": 12,
+    "node_r": 22,
+    "fill_color": "#22d3ee",
+    "track_color": "#1e293b",
+    "node_color": "#0f172a",
+    "node_active_ring": "#22d3ee",
+    "label_y": 290,
+    "label_size": 34,
+    "label_color": "#cbd5e1",
+    "label_active_color": "#22d3ee",
+    "label_stroke": 2,
+    "label_stroke_color": "#020617",
+    "anim_sec": 0.6
+  },
+  "subtitle": {
+    "y": 1320,
+    "size": 82,
+    "max_width": 980,
+    "color": "#ffffff",
+    "stroke": 6,
+    "stroke_color": "#020617",
+    "shadow": [
+      4,
+      7,
+      5,
+      0.65
+    ],
+    "pop_in_sec": 0.12,
+    "pill": {
+      "pad_x": 46,
+      "pad_y": 18,
+      "radius": 999,
+      "tint": "#0f172a",
+      "tint_alpha": 0.55,
+      "blur": 14,
+      "border_alpha": 0.25,
+      "text_stroke": 3,
+      "text_stroke_color": "#020617",
+      "shadow": [
+        3,
+        5,
+        6,
+        0.55
+      ]
+    }
+  },
+  "typewriter": {
+    "y": 490,
+    "size": 104,
+    "chars_per_sec": 9.0,
+    "cursor": true,
+    "pill_pad_x": 44,
+    "pill_pad_y": 26
+  },
+  "panel": {
+    "x": -40,
+    "y": 318,
+    "w": 1160,
+    "h": 760,
+    "radius": 70,
+    "tint": "#0f172a",
+    "tint_alpha": 0.45,
+    "border_alpha": 0.3,
+    "shadow_alpha": 0.18
+  },
+  "keyword_pop": {
+    "size": 180,
+    "y": 1110,
+    "color": "#22d3ee",
+    "stroke": 8,
+    "stroke_color": "#020617",
+    "shadow": [
+      6,
+      10,
+      8,
+      0.6
+    ],
+    "dur": 1.7,
+    "in_sec": 0.22,
+    "out_sec": 0.2,
+    "min_gap": 11.0,
+    "max_per_min": 4
+  },
+  "namecard": {
+    "show": true,
+    "start": 0.15,
+    "dur": 4.2,
+    "x": 34,
+    "y": 640,
+    "name_size": 150,
+    "line_size": 52,
+    "line_gap": 14,
+    "color": "#e0fbff",
+    "stroke": 6,
+    "stroke_color": "#020617"
+  },
+  "disclaimer": {
+    "size": 40,
+    "right": 1040,
+    "y1": 1458,
+    "y2": 1520,
+    "color": "#cbd5e1",
+    "stroke": 2,
+    "stroke_color": "#020617",
+    "shadow": [
+      2,
+      3,
+      3,
+      0.7
+    ],
+    "skew": 0.0,
+    "alpha": 0.92
+  },
+  "modes": {
+    "full": {
+      "subtitle": "outline"
+    },
+    "pip_round": {
+      "subtitle": "outline",
+      "x": 22,
+      "y": 640,
+      "w": 560,
+      "h": 700,
+      "radius": 56,
+      "border": 4,
+      "border_color": "#22d3ee",
+      "feather": 0,
+      "crop_w": 0.66,
+      "bg": "blur_or_broll"
+    },
+    "pip_circle": {
+      "subtitle": "typewriter",
+      "x": 0,
+      "y": 790,
+      "w": 600,
+      "h": 600,
+      "radius": 300,
+      "border": 4,
+      "border_color": "#22d3ee",
+      "feather": 0,
+      "crop_w": 0.64,
+      "bg": "blur_light",
+      "panel": true
+    },
+    "vignette": {
+      "subtitle": "pill",
+      "x": -40,
+      "y": 690,
+      "w": 640,
+      "h": 640,
+      "radius": 320,
+      "border": 0,
+      "border_color": "#000000",
+      "feather": 70,
+      "crop_w": 0.66,
+      "bg": "broll_dark"
+    }
+  },
+  "pacing": {
+    "hook_sec": 9.0,
+    "cycle": [
+      "full",
+      "pip_round",
+      "full",
+      "vignette"
+    ],
+    "block_sec": {
+      "full": [
+        5.5,
+        9.0
+      ],
+      "pip_round": [
+        6.0,
+        10.0
+      ],
+      "vignette": [
+        5.0,
+        8.0
+      ],
+      "pip_circle": [
+        2.5,
+        6.5
+      ]
+    },
+    "transition_sec": 0.45,
+    "dip_sec": 0.32,
+    "zoom_levels": [
+      1.0,
+      1.12,
+      1.0,
+      1.18
+    ],
+    "zoom_ease_sec": 0.14
+  },
+  "cut": {
+    "remove_silence": true,
+    "keep_gap": 0.16,
+    "min_gap": 0.28,
+    "pad": 0.06,
+    "lead": 0.15,
+    "tail": 0.5
+  },
+  "broll": {
+    "dir": "",
+    "card_colors": [
+      [
+        "#020617",
+        "#0c4a6e"
+      ],
+      [
+        "#0b1020",
+        "#1e3a8a"
+      ],
+      [
+        "#031421",
+        "#155e75"
+      ]
+    ],
+    "dark": 0.55,
+    "kenburns": 0.08
+  },
+  "audio": {
+    "target_db": -17.0,
+    "sfx": true,
+    "sfx_gain_db": -12.0,
+    "bgm": "",
+    "bgm_gain_db": -26.0
+  },
+  "encode": {
+    "crf": 20,
+    "x264_preset": "veryfast",
+    "nvenc_cq": 21,
+    "audio_bitrate": "192k"
+  },
+  "display_name": "科技蓝 · 深色质感",
+  "accent": "#22d3ee"
+}

@@ -1,0 +1,385 @@
+{
+  "name": "ai_tech",
+  "description": "电影感暗调 A-roll + 全屏动态信息卡（数字滚动、章节列表、关键词、标题卡）+ 巨字动效 + 极简宽字距字幕，适合 AI / 科技 / 知识类博主",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "fonts": {
+    "title": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "hand": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "pop": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "heavy": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "label": [
+      "SourceHanSansCN-Bold.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "sub": [
+      "SourceHanSansCN-Medium.otf",
+      "SourceHanSansCN-Bold.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyh.ttc"
+    ],
+    "medium": [
+      "SourceHanSansCN-Medium.otf",
+      "SourceHanSansCN-Regular.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyh.ttc"
+    ],
+    "num": [
+      "InterDisplay-Black.ttf",
+      "InterDisplay-Bold.ttf",
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "arialbd.ttf"
+    ],
+    "mono": [
+      "JetBrainsMono-Medium.ttf",
+      "JetBrainsMono-Regular.ttf",
+      "consola.ttf",
+      "DejaVuSansMono.ttf",
+      "SourceHanSansCN-Medium.otf",
+      "NotoSansCJK-Black.ttc"
+    ]
+  },
+  "brand": {
+    "title": "",
+    "slogan": "",
+    "logo_text": "",
+    "seal_text": "",
+    "namecard_lines": [],
+    "disclaimer": []
+  },
+  "header": {
+    "haze_height": 360,
+    "haze_alpha_top": 0.78,
+    "haze_alpha_bottom": 0.0,
+    "haze_blur": 18,
+    "title_size": 112,
+    "title_y": 26,
+    "title_cx": 600,
+    "title_grad": [
+      "#7fd3ea",
+      "#2c8fae",
+      "#155e78"
+    ],
+    "title_stroke": 4,
+    "title_stroke_color": "#0a3a4c",
+    "slogan_size": 60,
+    "slogan_y": 150,
+    "slogan_right": 1068,
+    "slogan_grad": [
+      "#f4fbfd",
+      "#b9e3ef"
+    ],
+    "slogan_stroke": 4,
+    "slogan_stroke_color": "#1c4b5d",
+    "logo_size": 70,
+    "logo_x": 22,
+    "logo_y": 22,
+    "logo_color": "#3b3b3b",
+    "seal_color": "#c8261d",
+    "show": false
+  },
+  "progress": {
+    "y": 262,
+    "thickness": 10,
+    "margin": 12,
+    "node_r": 22,
+    "fill_color": "#5b9bd8",
+    "track_color": "#f3f3f3",
+    "node_color": "#f8f8f8",
+    "node_active_ring": "#5b9bd8",
+    "label_y": 290,
+    "label_size": 38,
+    "label_color": "#4b3a30",
+    "label_active_color": "#d8342a",
+    "label_stroke": 3,
+    "label_stroke_color": "#ffffff",
+    "anim_sec": 0.6,
+    "show": false
+  },
+  "subtitle": {
+    "y": 1540,
+    "size": 50,
+    "max_width": 940,
+    "color": "#f2f2f4",
+    "stroke": 0,
+    "stroke_color": "#000000",
+    "shadow": [
+      0,
+      2,
+      10,
+      0.85
+    ],
+    "pop_in_sec": 0.1,
+    "spacing": 5,
+    "kind_scale": false,
+    "pill": {
+      "pad_x": 46,
+      "pad_y": 18,
+      "radius": 999,
+      "tint": "#ffffff",
+      "tint_alpha": 0.26,
+      "blur": 14,
+      "border_alpha": 0.35,
+      "text_stroke": 3,
+      "text_stroke_color": "#5a5a5a",
+      "shadow": [
+        3,
+        5,
+        6,
+        0.55
+      ]
+    },
+    "backdrop": 0.42
+  },
+  "typewriter": {
+    "y": 490,
+    "size": 104,
+    "chars_per_sec": 9.0,
+    "cursor": true,
+    "pill_pad_x": 44,
+    "pill_pad_y": 26
+  },
+  "panel": {
+    "x": -40,
+    "y": 318,
+    "w": 1160,
+    "h": 760,
+    "radius": 70,
+    "tint": "#ffffff",
+    "tint_alpha": 0.3,
+    "border_alpha": 0.45,
+    "shadow_alpha": 0.18
+  },
+  "keyword_pop": {
+    "kind": "kinetic",
+    "size": 220,
+    "y": 300,
+    "color": "#ffffff",
+    "stroke": 0,
+    "stroke_color": "#000000",
+    "shadow": [
+      0,
+      8,
+      16,
+      0.6
+    ],
+    "dur": 1.6,
+    "in_sec": 0.2,
+    "out_sec": 0.22,
+    "min_gap": 9.0,
+    "max_per_min": 3,
+    "hook": true
+  },
+  "namecard": {
+    "show": false,
+    "start": 0.15,
+    "dur": 4.2,
+    "x": 34,
+    "y": 640,
+    "name_size": 150,
+    "line_size": 52,
+    "line_gap": 14,
+    "color": "#ffffff",
+    "stroke": 6,
+    "stroke_color": "#202020"
+  },
+  "disclaimer": {
+    "size": 52,
+    "right": 1040,
+    "y1": 1458,
+    "y2": 1520,
+    "color": "#eeeeee",
+    "stroke": 2,
+    "stroke_color": "#555555",
+    "shadow": [
+      2,
+      3,
+      3,
+      0.7
+    ],
+    "skew": 0.18,
+    "alpha": 0.92,
+    "show": false
+  },
+  "modes": {
+    "full": {
+      "subtitle": "minimal"
+    },
+    "pip_round": {
+      "subtitle": "minimal",
+      "x": 22,
+      "y": 640,
+      "w": 560,
+      "h": 700,
+      "radius": 56,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.66,
+      "bg": "blur_or_broll"
+    },
+    "pip_circle": {
+      "subtitle": "minimal",
+      "x": 0,
+      "y": 790,
+      "w": 600,
+      "h": 600,
+      "radius": 300,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.64,
+      "bg": "blur_light",
+      "panel": true
+    },
+    "vignette": {
+      "subtitle": "minimal",
+      "x": -40,
+      "y": 690,
+      "w": 640,
+      "h": 640,
+      "radius": 320,
+      "border": 0,
+      "border_color": "#000000",
+      "feather": 70,
+      "crop_w": 0.66,
+      "bg": "broll_dark"
+    },
+    "card": {
+      "subtitle": "minimal"
+    }
+  },
+  "pacing": {
+    "hook_sec": 7.0,
+    "cycle": [
+      "full",
+      "card",
+      "full",
+      "card"
+    ],
+    "block_sec": {
+      "full": [
+        3.8,
+        7.5
+      ],
+      "card": [
+        2.2,
+        3.8
+      ],
+      "pip_round": [
+        5,
+        8
+      ],
+      "vignette": [
+        5,
+        8
+      ],
+      "pip_circle": [
+        2.5,
+        5
+      ]
+    },
+    "transition_sec": 0.3,
+    "dip_sec": 0.0,
+    "zoom_levels": [
+      1.0,
+      1.06,
+      1.0,
+      1.1
+    ],
+    "zoom_ease_sec": 0.18,
+    "chapter_mode": "card",
+    "title_card": true
+  },
+  "cut": {
+    "remove_silence": true,
+    "keep_gap": 0.16,
+    "min_gap": 0.28,
+    "pad": 0.06,
+    "lead": 0.15,
+    "tail": 0.5
+  },
+  "broll": {
+    "dir": "",
+    "card_colors": [
+      [
+        "#0b0b10",
+        "#1a1030"
+      ],
+      [
+        "#08080c",
+        "#14142a"
+      ]
+    ],
+    "dark": 0.55,
+    "kenburns": 0.08
+  },
+  "audio": {
+    "target_db": -17.0,
+    "sfx": true,
+    "sfx_gain_db": -14.0,
+    "bgm": "",
+    "bgm_gain_db": -26.0
+  },
+  "encode": {
+    "crf": 20,
+    "x264_preset": "veryfast",
+    "nvenc_cq": 21,
+    "audio_bitrate": "192k"
+  },
+  "display_name": "AI博主 · 暗黑科技",
+  "accent": "#a23cff",
+  "landscape": {
+    "subtitle": {
+      "y": 985,
+      "size": 40,
+      "max_width": 1500,
+      "spacing": 5
+    }
+  },
+  "grade": {
+    "contrast": 1.1,
+    "lift": -9,
+    "saturation": 0.8,
+    "vignette": 0.5,
+    "grain": 3.2,
+    "shadow_tint": "#0a1236",
+    "shadow_tint_amount": 0.6
+  },
+  "motion": {
+    "bg_top": "#0e0e13",
+    "bg_bottom": "#070709",
+    "glow": "#9d1a8e",
+    "glow2": "#36208a",
+    "text": "#f4f4f6",
+    "dim": "#9a9aa6",
+    "faint": "#5c5c68",
+    "accent_grad": [
+      "#ff3d9a",
+      "#a23cff",
+      "#4f6bff"
+    ],
+    "particles": true
+  }
+}

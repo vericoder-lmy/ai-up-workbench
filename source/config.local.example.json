@@ -1,0 +1,12 @@
+{
+  "voice": {
+    "api_key": "在这里填阿里云百炼（DashScope）的 API Key"
+  },
+  "llm": {
+    "base_url": "https://你的大模型接口地址/v1",
+    "api_key": "在这里填大模型接口的 key（可选，不填就用规则版）",
+    "model": "模型名",
+    "api_format": "openai",
+    "proxy": "direct"
+  }
+}

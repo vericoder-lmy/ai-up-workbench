@@ -1,0 +1,323 @@
+{
+  "name": "doctor_kepu",
+  "description": "书法渐变标题 + 章节进度条 + 圆形/圆角画中画轮换 + 打字机章节句 + 红色书法弹字（参考视频复刻）",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "fonts": {
+    "title": [
+      "STXINGKA.TTF",
+      "STKAITI.TTF",
+      "simkai.ttf",
+      "NotoSerifCJK-Black.ttc"
+    ],
+    "hand": [
+      "FZSTK.TTF",
+      "STXINGKA.TTF",
+      "STKAITI.TTF",
+      "simkai.ttf",
+      "NotoSerifCJK-Bold.ttc"
+    ],
+    "sub": [
+      "NotoSansCJK-Black.ttc",
+      "Noto Sans SC Bold (TrueType).otf",
+      "HarmonyOS_Sans_SC_Bold.ttf",
+      "msyhbd.ttc",
+      "simhei.ttf"
+    ],
+    "label": [
+      "Source Han Serif SC Heavy (TrueType).ttf",
+      "NotoSerifCJK-Black.ttc",
+      "STZHONGS.TTF",
+      "simsun.ttc"
+    ],
+    "pop": [
+      "STXINGKA.TTF",
+      "STHUPO.TTF",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ]
+  },
+  "brand": {
+    "title": "",
+    "slogan": "医学科普 · 健康知识",
+    "logo_text": "",
+    "seal_text": "",
+    "namecard_lines": [],
+    "disclaimer": [
+      "医学科普  仅供参考",
+      "如有不适请及时线下就医"
+    ]
+  },
+  "header": {
+    "haze_height": 360,
+    "haze_alpha_top": 0.78,
+    "haze_alpha_bottom": 0.0,
+    "haze_blur": 18,
+    "title_size": 112,
+    "title_y": 26,
+    "title_cx": 600,
+    "title_grad": [
+      "#7fd3ea",
+      "#2c8fae",
+      "#155e78"
+    ],
+    "title_stroke": 4,
+    "title_stroke_color": "#0a3a4c",
+    "slogan_size": 60,
+    "slogan_y": 150,
+    "slogan_right": 1068,
+    "slogan_grad": [
+      "#f4fbfd",
+      "#b9e3ef"
+    ],
+    "slogan_stroke": 4,
+    "slogan_stroke_color": "#1c4b5d",
+    "logo_size": 70,
+    "logo_x": 22,
+    "logo_y": 22,
+    "logo_color": "#3b3b3b",
+    "seal_color": "#c8261d"
+  },
+  "progress": {
+    "y": 262,
+    "thickness": 10,
+    "margin": 12,
+    "node_r": 22,
+    "fill_color": "#5b9bd8",
+    "track_color": "#f3f3f3",
+    "node_color": "#f8f8f8",
+    "node_active_ring": "#5b9bd8",
+    "label_y": 290,
+    "label_size": 38,
+    "label_color": "#4b3a30",
+    "label_active_color": "#d8342a",
+    "label_stroke": 3,
+    "label_stroke_color": "#ffffff",
+    "anim_sec": 0.6
+  },
+  "subtitle": {
+    "y": 1320,
+    "size": 82,
+    "max_width": 980,
+    "color": "#ffffff",
+    "stroke": 7,
+    "stroke_color": "#1e1e1e",
+    "shadow": [
+      4,
+      7,
+      5,
+      0.65
+    ],
+    "pop_in_sec": 0.12,
+    "pill": {
+      "pad_x": 46,
+      "pad_y": 18,
+      "radius": 999,
+      "tint": "#ffffff",
+      "tint_alpha": 0.26,
+      "blur": 14,
+      "border_alpha": 0.35,
+      "text_stroke": 3,
+      "text_stroke_color": "#5a5a5a",
+      "shadow": [
+        3,
+        5,
+        6,
+        0.55
+      ]
+    }
+  },
+  "typewriter": {
+    "y": 490,
+    "size": 104,
+    "chars_per_sec": 9.0,
+    "cursor": true,
+    "pill_pad_x": 44,
+    "pill_pad_y": 26
+  },
+  "panel": {
+    "x": -40,
+    "y": 318,
+    "w": 1160,
+    "h": 760,
+    "radius": 70,
+    "tint": "#ffffff",
+    "tint_alpha": 0.3,
+    "border_alpha": 0.45,
+    "shadow_alpha": 0.18
+  },
+  "keyword_pop": {
+    "size": 210,
+    "y": 1110,
+    "color": "#e3231b",
+    "stroke": 10,
+    "stroke_color": "#ffffff",
+    "shadow": [
+      6,
+      10,
+      8,
+      0.6
+    ],
+    "dur": 1.7,
+    "in_sec": 0.22,
+    "out_sec": 0.2,
+    "min_gap": 11.0,
+    "max_per_min": 4
+  },
+  "namecard": {
+    "show": true,
+    "start": 0.15,
+    "dur": 4.2,
+    "x": 34,
+    "y": 640,
+    "name_size": 150,
+    "line_size": 52,
+    "line_gap": 14,
+    "color": "#ffffff",
+    "stroke": 6,
+    "stroke_color": "#202020"
+  },
+  "disclaimer": {
+    "size": 52,
+    "right": 1040,
+    "y1": 1458,
+    "y2": 1520,
+    "color": "#eeeeee",
+    "stroke": 2,
+    "stroke_color": "#555555",
+    "shadow": [
+      2,
+      3,
+      3,
+      0.7
+    ],
+    "skew": 0.18,
+    "alpha": 0.92
+  },
+  "modes": {
+    "full": {
+      "subtitle": "outline"
+    },
+    "pip_round": {
+      "subtitle": "outline",
+      "x": 22,
+      "y": 640,
+      "w": 560,
+      "h": 700,
+      "radius": 56,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.66,
+      "bg": "blur_or_broll"
+    },
+    "pip_circle": {
+      "subtitle": "typewriter",
+      "x": 0,
+      "y": 790,
+      "w": 600,
+      "h": 600,
+      "radius": 300,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.64,
+      "bg": "blur_light",
+      "panel": true
+    },
+    "vignette": {
+      "subtitle": "pill",
+      "x": -40,
+      "y": 690,
+      "w": 640,
+      "h": 640,
+      "radius": 320,
+      "border": 0,
+      "border_color": "#000000",
+      "feather": 70,
+      "crop_w": 0.66,
+      "bg": "broll_dark"
+    }
+  },
+  "pacing": {
+    "hook_sec": 9.0,
+    "cycle": [
+      "full",
+      "pip_round",
+      "full",
+      "vignette"
+    ],
+    "block_sec": {
+      "full": [
+        5.5,
+        9.0
+      ],
+      "pip_round": [
+        6.0,
+        10.0
+      ],
+      "vignette": [
+        5.0,
+        8.0
+      ],
+      "pip_circle": [
+        2.5,
+        6.5
+      ]
+    },
+    "transition_sec": 0.45,
+    "dip_sec": 0.32,
+    "zoom_levels": [
+      1.0,
+      1.12,
+      1.0,
+      1.18
+    ],
+    "zoom_ease_sec": 0.14
+  },
+  "cut": {
+    "remove_silence": true,
+    "keep_gap": 0.16,
+    "min_gap": 0.28,
+    "pad": 0.06,
+    "lead": 0.15,
+    "tail": 0.5
+  },
+  "broll": {
+    "dir": "",
+    "card_colors": [
+      [
+        "#0f2b3a",
+        "#1f5a6e"
+      ],
+      [
+        "#2a1a12",
+        "#5e3b28"
+      ],
+      [
+        "#14213a",
+        "#2f4d7a"
+      ]
+    ],
+    "dark": 0.55,
+    "kenburns": 0.08
+  },
+  "audio": {
+    "target_db": -17.0,
+    "sfx": true,
+    "sfx_gain_db": -12.0,
+    "bgm": "",
+    "bgm_gain_db": -26.0
+  },
+  "encode": {
+    "crf": 20,
+    "x264_preset": "veryfast",
+    "nvenc_cq": 21,
+    "audio_bitrate": "192k"
+  },
+  "display_name": "医生科普 · 国风书法",
+  "accent": "#2c8fae"
+}

@@ -1,0 +1,44 @@
+{
+ "heygem": {
+  "tts_url": "http://127.0.0.1:18180",
+  "video_url": "http://127.0.0.1:8383",
+  "tts_data_dir": "",
+  "video_data_dir": "",
+  "poll_sec": 3,
+  "lipsync_timeout_min": 60,
+  "container": "heygem-f2f"
+ },
+ "llm": {
+  "base_url": "",
+  "model": ""
+ },
+ "avatar_default": {
+  "name": "",
+  "file": "",
+  "use_from": null,
+  "use_to": null
+ },
+ "voice_default": "",
+ "outputs": [
+  "portrait",
+  "landscape"
+ ],
+ "voice": {
+  "engine": "qwen_audio",
+  "api_key_file": "",
+  "api_key_field": "asr_api_key",
+  "api_url": ""
+ },
+ "render": {
+  "workers": 2,
+  "encoder": "auto"
+ },
+ "style_default": "aiup_orange",
+ "lipsync": {
+  "restore": true
+ },
+ "audiofix": {
+  "engine": "auto",
+  "instruct_model": "qwen-audio-3.0-tts-flash"
+ }
+}

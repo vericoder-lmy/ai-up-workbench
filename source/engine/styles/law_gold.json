@@ -1,0 +1,499 @@
+{
+  "name": "law_gold",
+  "description": "律师普法口播：顶部金色宋体双行标题、律师名牌、开场金字+红色大字+打字机钩子、每句红色重点词；人物不缩放、稳重克制",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "fonts": {
+    "title": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "hand": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "pop": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "heavy": [
+      "SourceHanSansCN-Heavy.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "label": [
+      "SourceHanSansCN-Bold.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "sub": [
+      "SourceHanSansCN-Bold.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyhbd.ttc"
+    ],
+    "medium": [
+      "SourceHanSansCN-Medium.otf",
+      "SourceHanSansCN-Regular.otf",
+      "NotoSansCJK-Black.ttc",
+      "msyh.ttc"
+    ],
+    "num": [
+      "InterDisplay-Black.ttf",
+      "SourceHanSansCN-Heavy.otf",
+      "msyhbd.ttc"
+    ],
+    "mono": [
+      "JetBrainsMono-Medium.ttf",
+      "JetBrainsMono-Regular.ttf",
+      "consola.ttf",
+      "DejaVuSansMono.ttf",
+      "SourceHanSansCN-Medium.otf",
+      "NotoSansCJK-Black.ttc"
+    ],
+    "latin": [
+      "InterDisplay-Bold.ttf",
+      "SourceHanSansCN-Bold.otf",
+      "msyhbd.ttc"
+    ],
+    "serif": [
+      "LawSerif-Bold.otf",
+      "NotoSerifCJK-Bold.ttc",
+      "STZHONGS.TTF",
+      "simsun.ttc",
+      "SourceHanSansCN-Heavy.otf"
+    ],
+    "serif_black": [
+      "LawSerif-Black.otf",
+      "NotoSerifCJK-Black.ttc",
+      "STZHONGS.TTF",
+      "simsun.ttc",
+      "SourceHanSansCN-Heavy.otf"
+    ]
+  },
+  "brand": {
+    "title": "",
+    "slogan": "",
+    "logo_text": "",
+    "seal_text": "",
+    "namecard_lines": [],
+    "disclaimer": [],
+    "name": "",
+    "role": "律师",
+    "firm": "",
+    "law_disclaimer": ""
+  },
+  "header": {
+    "haze_height": 360,
+    "haze_alpha_top": 0.78,
+    "haze_alpha_bottom": 0.0,
+    "haze_blur": 18,
+    "title_size": 112,
+    "title_y": 26,
+    "title_cx": 600,
+    "title_grad": [
+      "#7fd3ea",
+      "#2c8fae",
+      "#155e78"
+    ],
+    "title_stroke": 4,
+    "title_stroke_color": "#0a3a4c",
+    "slogan_size": 60,
+    "slogan_y": 150,
+    "slogan_right": 1068,
+    "slogan_grad": [
+      "#f4fbfd",
+      "#b9e3ef"
+    ],
+    "slogan_stroke": 4,
+    "slogan_stroke_color": "#1c4b5d",
+    "logo_size": 70,
+    "logo_x": 22,
+    "logo_y": 22,
+    "logo_color": "#3b3b3b",
+    "seal_color": "#c8261d",
+    "show": false
+  },
+  "progress": {
+    "y": 262,
+    "thickness": 10,
+    "margin": 12,
+    "node_r": 22,
+    "fill_color": "#5b9bd8",
+    "track_color": "#f3f3f3",
+    "node_color": "#f8f8f8",
+    "node_active_ring": "#5b9bd8",
+    "label_y": 290,
+    "label_size": 38,
+    "label_color": "#4b3a30",
+    "label_active_color": "#d8342a",
+    "label_stroke": 3,
+    "label_stroke_color": "#ffffff",
+    "anim_sec": 0.6,
+    "show": false
+  },
+  "subtitle": {
+    "y": 1560,
+    "size": 54,
+    "max_width": 940,
+    "color": "#f2f2f4",
+    "stroke": 0,
+    "stroke_color": "#000000",
+    "shadow": [
+      0,
+      3,
+      12,
+      0.9
+    ],
+    "pop_in_sec": 0.1,
+    "spacing": 5,
+    "kind_scale": false,
+    "pill": {
+      "pad_x": 46,
+      "pad_y": 18,
+      "radius": 999,
+      "tint": "#ffffff",
+      "tint_alpha": 0.26,
+      "blur": 14,
+      "border_alpha": 0.35,
+      "text_stroke": 3,
+      "text_stroke_color": "#5a5a5a",
+      "shadow": [
+        3,
+        5,
+        6,
+        0.55
+      ]
+    },
+    "backdrop": 0.0,
+    "en": {
+      "show": false,
+      "scale": 0.52,
+      "role": "medium",
+      "color": "#f2ece4",
+      "alpha": 1.0,
+      "gap": 2,
+      "spacing": 1
+    }
+  },
+  "typewriter": {
+    "y": 490,
+    "size": 104,
+    "chars_per_sec": 9.0,
+    "cursor": true,
+    "pill_pad_x": 44,
+    "pill_pad_y": 26
+  },
+  "panel": {
+    "x": -40,
+    "y": 318,
+    "w": 1160,
+    "h": 760,
+    "radius": 70,
+    "tint": "#ffffff",
+    "tint_alpha": 0.3,
+    "border_alpha": 0.45,
+    "shadow_alpha": 0.18
+  },
+  "keyword_pop": {
+    "kind": "kinetic",
+    "size": 220,
+    "y": 300,
+    "color": "#ffffff",
+    "stroke": 0,
+    "stroke_color": "#000000",
+    "shadow": [
+      0,
+      8,
+      16,
+      0.6
+    ],
+    "dur": 1.6,
+    "in_sec": 0.2,
+    "out_sec": 0.22,
+    "min_gap": 9.0,
+    "max_per_min": 0,
+    "hook": false
+  },
+  "namecard": {
+    "show": false,
+    "start": 0.15,
+    "dur": 4.2,
+    "x": 34,
+    "y": 640,
+    "name_size": 150,
+    "line_size": 52,
+    "line_gap": 14,
+    "color": "#ffffff",
+    "stroke": 6,
+    "stroke_color": "#202020"
+  },
+  "disclaimer": {
+    "size": 30,
+    "right": 1040,
+    "y1": 96,
+    "y2": 136,
+    "color": "#d8dde8",
+    "stroke": 0,
+    "stroke_color": "#555555",
+    "shadow": [
+      0,
+      1,
+      4,
+      0.6
+    ],
+    "skew": 0,
+    "alpha": 0.8,
+    "show": false
+  },
+  "modes": {
+    "full": {
+      "subtitle": "minimal"
+    },
+    "pip_round": {
+      "subtitle": "minimal",
+      "x": 22,
+      "y": 640,
+      "w": 560,
+      "h": 700,
+      "radius": 56,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.66,
+      "bg": "blur_or_broll"
+    },
+    "pip_circle": {
+      "subtitle": "minimal",
+      "x": 0,
+      "y": 790,
+      "w": 600,
+      "h": 600,
+      "radius": 300,
+      "border": 7,
+      "border_color": "#111111",
+      "feather": 0,
+      "crop_w": 0.64,
+      "bg": "blur_light",
+      "panel": true
+    },
+    "vignette": {
+      "subtitle": "minimal",
+      "x": -40,
+      "y": 690,
+      "w": 640,
+      "h": 640,
+      "radius": 320,
+      "border": 0,
+      "border_color": "#000000",
+      "feather": 70,
+      "crop_w": 0.66,
+      "bg": "broll_dark"
+    },
+    "card": {
+      "subtitle": "minimal"
+    }
+  },
+  "pacing": {
+    "hook_sec": 5.0,
+    "cycle": [
+      "full"
+    ],
+    "block_sec": {
+      "full": [
+        3.8,
+        7.5
+      ],
+      "card": [
+        2.2,
+        3.8
+      ],
+      "pip_round": [
+        5,
+        8
+      ],
+      "vignette": [
+        5,
+        8
+      ],
+      "pip_circle": [
+        2.5,
+        5
+      ]
+    },
+    "transition_sec": 0.3,
+    "dip_sec": 0.0,
+    "zoom_levels": [
+      1.0
+    ],
+    "zoom_ease_sec": 0.22,
+    "chapter_mode": "full",
+    "title_card": false,
+    "zoom_mode": "cycle",
+    "zoom_key": 1.12,
+    "zoom_gap": 7.0,
+    "cut_zoom": [
+      1.0,
+      1.12
+    ]
+  },
+  "cut": {
+    "remove_silence": true,
+    "keep_gap": 0.16,
+    "min_gap": 0.28,
+    "pad": 0.06,
+    "lead": 0.15,
+    "tail": 0.5
+  },
+  "broll": {
+    "dir": "",
+    "card_colors": [
+      [
+        "#0f0a07",
+        "#2a1608"
+      ],
+      [
+        "#0b0806",
+        "#1f1208"
+      ]
+    ],
+    "dark": 0.55,
+    "kenburns": 0.08
+  },
+  "audio": {
+    "target_db": -17.0,
+    "sfx": true,
+    "sfx_gain_db": -14.0,
+    "bgm": "",
+    "bgm_gain_db": -26.0
+  },
+  "encode": {
+    "crf": 17,
+    "x264_preset": "fast",
+    "nvenc_cq": 19,
+    "audio_bitrate": "192k"
+  },
+  "display_name": "律师·律政金",
+  "accent": "#e2b75a",
+  "landscape": {
+    "subtitle": {
+      "y": 968,
+      "size": 46,
+      "max_width": 1500,
+      "spacing": 3
+    },
+    "disclaimer": {
+      "size": 26,
+      "right": 1880,
+      "y1": 40,
+      "y2": 76
+    },
+    "media_pip": {
+      "x": 60,
+      "y": 130,
+      "w": 780,
+      "h": 439,
+      "radius": 24,
+      "border": 3
+    }
+  },
+  "media_pip": {
+    "enable": true,
+    "x": 60,
+    "y": 820,
+    "w": 960,
+    "h": 540,
+    "radius": 28,
+    "border": 3,
+    "border_color": "#e2b75a",
+    "shadow": 0.55,
+    "in_sec": 0.45,
+    "out_sec": 0.3,
+    "min_gap": 8.0,
+    "dur": [
+      2.5,
+      5.0
+    ],
+    "zoom_from": 0.6,
+    "push": 0.04
+  },
+  "hud": {
+    "enable": false,
+    "accent": "#ff8a2a",
+    "white": "#f7f1ea",
+    "dim": "#b9ab9c",
+    "scrim": 0.8,
+    "in_sec": 0.45,
+    "out_sec": 0.28,
+    "dur": [
+      3.0,
+      7.5
+    ],
+    "gap": 0.8,
+    "scale_land": 1.0,
+    "x_land": 78,
+    "y_land": 64,
+    "scale_port": 1.12,
+    "margin_port": 64,
+    "bottom_port": 1440,
+    "dur_list": 18.0,
+    "reframe": {
+      "zoom": 1.3,
+      "face_x": 0.36,
+      "zoom_port": 1.12
+    }
+  },
+  "upscale": {
+    "cubic": true,
+    "sharpen": 0.45,
+    "radius": 1.2
+  },
+  "law": {
+    "enable": true,
+    "disclaimer": "本视频仅为普法分享，不构成具体法律意见",
+    "show_disclaimer": true,
+    "disc_alpha": 0.7,
+    "cover_sec": 0.3,
+    "kw_color": "#ee1c25",
+    "gold_grad": [
+      "#fff5d6",
+      "#f3d27a",
+      "#c9952f"
+    ],
+    "gold_grad2": [
+      "#ffffff",
+      "#fbefd0",
+      "#e6bf68"
+    ],
+    "port": {
+      "scale": 1.0,
+      "title_y": 205,
+      "t1_size": 118,
+      "t2_size": 74,
+      "title_gap": 20,
+      "name_y": 1080,
+      "name_size": 66,
+      "firm_size": 34,
+      "sub_y": 1430,
+      "sub_size": 64,
+      "gold_size": 80,
+      "red_size": 168,
+      "disc_y": 1830,
+      "disc_size": 26,
+      "cover_y": 0.7
+    },
+    "land": {
+      "scale": 0.72,
+      "title_y": 40,
+      "name_y": 560,
+      "sub_y": 880,
+      "disc_y": 1046,
+      "cover_y": 0.68
+    }
+  }
+}
